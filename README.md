@@ -149,7 +149,7 @@ int main() {
 
 - 🛢️ **SIH 2026:** built [OceanGuard AI](https://github.com/shaurya212121/OceanGuard), [Well-Whisperer](https://github.com/shaurya212121/Well-Whisperer) (offset-well risk intelligence for Oil India) and [BlueByte AI](https://github.com/shaurya212121/Bluebyte) (ocean & biodiversity data platform) with my team
 - 🎃 **Hacktoberfest 2026:** PRs to HPX and FOSSology
-- 🔬 Currently digging into HPX's work-requesting schedulers and NUMA-aware scheduling
+- 🔬 Currently working on `MYSQL_TYPE_VECTOR` handling in MariaDB Connector/C and digging into HPX's work-requesting schedulers
 
 ---
 
