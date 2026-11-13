@@ -171,14 +171,6 @@ int main() {
 ## 📊 GitHub Pulse
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vivs24307-maker&theme=onedark&no-frame=true&no-bg=true&margin-w=6&column=7" alt="trophies" />
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vivs24307-maker&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=22d3ee&text_color=c9d1d9" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivs24307-maker&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" />
-</p>
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=vivs24307-maker&hide_border=true&background=0d1117&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=30363d" />
 </p>
 
