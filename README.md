@@ -182,10 +182,6 @@ int main() {
   <img src="https://streak-stats.demolab.com?user=vivs24307-maker&hide_border=true&background=0d1117&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=30363d" />
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vivs24307-maker&bg_color=0d1117&color=c9d1d9&title_color=22d3ee&line=22d3ee&point=ffffff&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribution%20activity" alt="activity graph" />
-</p>
-
 <!-- ░░ FOOTER ░░ -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0f2027,55:203a43,100:2c5364" width="100%" />
