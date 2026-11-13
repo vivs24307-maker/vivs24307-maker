@@ -19,19 +19,19 @@
 
 <!-- ░░ ABOUT — written the way I like to think ░░ -->
 ```cpp
-#include <hpx/future.hpp>
+#include <future>
 
 struct Vivaan {
     std::string_view studies   = "B.Tech Information Technology @ VJTI, Mumbai";
     std::string_view loves     = "systems code: runtimes, schedulers, storage engines";
     std::array<std::string_view, 3> stack = {"C / C++", "Machine Learning", "DBMS"};
     std::string_view open_src  = "HPX · MariaDB Connector/C · FOSSology";
-    std::string_view looking   = "SWE internships · open-source programs (GSoC & co.)";
-    std::string_view fun_fact  = "I read set_operation.hpp so you don't have to";
+    std::string_view looking   = "GSoC · open-source programs · SWE internships";
+    std::string_view fun_fact  = "I hunt bugs in chunk sizes and in byte order";
 };
 
 int main() {
-    hpx::future<void> next = hpx::async([] { /* build something fast */ });
+    auto next = std::async([] { /* next PR: HPX, MariaDB, FOSSology */ });
     next.get();   // ⏳ always in progress
 }
 ```
