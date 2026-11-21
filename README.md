@@ -54,8 +54,8 @@ int main() {
     <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/HPX-scheduler%20docs-1f6feb?style=flat-square" /></td>
-    <td><a href="https://github.com/TheHPXProject/hpx/pull/7770"><b>#7770</b></a> · Documented that <code>local_queue_scheduler</code> ignores thread priorities, so users stop expecting behaviour it never had.</td>
+    <td><img src="https://img.shields.io/badge/HPX-parallel%20algorithms-1f6feb?style=flat-square" /></td>
+    <td><a href="https://github.com/TheHPXProject/hpx/issues/8115"><b>Issue #8115</b></a> → <a href="https://github.com/TheHPXProject/hpx/pull/8123"><b>#8123</b></a> · Found that <code>all_of</code>, <code>any_of</code>, <code>equal</code>, <code>is_sorted</code>, <code>transform_reduce</code> and other parallel algorithms didn't compile with <code>guided_chunk_size</code>: the static partitioner handed the reduction a future instead of the chunk results. Reported it, fixed the reduce step and added a regression test.</td>
     <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
   </tr>
   <tr>
@@ -66,12 +66,12 @@ int main() {
   <tr>
     <td><img src="https://img.shields.io/badge/FOSSology-license%20compliance-0b7a75?style=flat-square" /></td>
     <td><a href="https://github.com/fossology/fossology/pull/4012"><b>#4012</b></a> · Search page now falls back to a sane default limit when the parameter is missing.</td>
-    <td align="center"><img src="https://img.shields.io/badge/in%20review-2da44e?style=flat-square&logo=git-pull-request&logoColor=white" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/MemoraDB-C%2B%2B17%20DBMS-c2410c?style=flat-square" /></td>
-    <td><a href="https://github.com/v1haan24/MemoraDB/pull/9"><b>#9</b></a> SQL parser + executor (+1.7k LOC) · <a href="https://github.com/v1haan24/MemoraDB/pull/8"><b>#8</b></a> vector-store compaction.</td>
-    <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
+    <td><img src="https://img.shields.io/badge/MariaDB-Server-003545?style=flat-square&logo=mariadb&logoColor=white" /></td>
+    <td><a href="https://github.com/MariaDB/server/pull/6168"><b>#6168 · MDEV-41356</b></a> · <code>CREATE TABLE … SELECT</code> turned <code>VECTOR</code> results of window functions and scalar subqueries into <code>VARBINARY</code>, because the vector type handler inherited VARCHAR's temp-table handler. It now keeps the <code>VECTOR</code> type, with a new mtr test.</td>
+    <td align="center"><img src="https://img.shields.io/badge/approved-1a7f37?style=flat-square&logo=github&logoColor=white" /></td>
   </tr>
 </table>
 
