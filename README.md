@@ -59,6 +59,11 @@ int main() {
     <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
   </tr>
   <tr>
+    <td><img src="https://img.shields.io/badge/HPX-parallel%20algorithms-1f6feb?style=flat-square" /></td>
+    <td><a href="https://github.com/TheHPXProject/hpx/pull/8178"><b>#8178</b></a> · Follow-up to #8115: <code>copy_if</code>, <code>unique_copy</code>, <code>partition_copy</code>, the four scans and <code>merge</code> also failed to compile with <code>guided_chunk_size</code>. Fixed the scan and for_each partitioners and added a regression test against the standard library.</td>
+    <td align="center"><img src="https://img.shields.io/badge/in%20review-2da44e?style=flat-square&logo=git-pull-request&logoColor=white" /></td>
+  </tr>
+  <tr>
     <td><img src="https://img.shields.io/badge/MariaDB-Connector%2FC-003545?style=flat-square&logo=mariadb&logoColor=white" /></td>
     <td><a href="https://github.com/mariadb-corporation/mariadb-connector-c/pull/334"><b>#334 · CONC-867</b></a> · <code>MYSQL_TYPE_VECTOR</code> values were copied raw into prepared-statement buffers, so big-endian hosts got byte-swapped floats. Each element is now unpacked in host byte order (incl. partial fetches at any offset), with updated unit tests.</td>
     <td align="center"><img src="https://img.shields.io/badge/in%20review-2da44e?style=flat-square&logo=git-pull-request&logoColor=white" /></td>
