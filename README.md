@@ -61,7 +61,7 @@ int main() {
   <tr>
     <td><img src="https://img.shields.io/badge/HPX-parallel%20algorithms-1f6feb?style=flat-square" /></td>
     <td><a href="https://github.com/TheHPXProject/hpx/pull/8178"><b>#8178</b></a> · Follow-up to #8115: <code>copy_if</code>, <code>unique_copy</code>, <code>partition_copy</code>, the four scans and <code>merge</code> also failed to compile with <code>guided_chunk_size</code>. Fixed the scan and for_each partitioners and added a regression test against the standard library.</td>
-    <td align="center"><img src="https://img.shields.io/badge/in%20review-2da44e?style=flat-square&logo=git-pull-request&logoColor=white" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=git-merge&logoColor=white" /></td>
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/MariaDB-Connector%2FC-003545?style=flat-square&logo=mariadb&logoColor=white" /></td>
@@ -149,7 +149,7 @@ int main() {
 <p>
   <img src="https://img.shields.io/badge/Smart%20India%20Hackathon-2026%20Participant-C1622B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hacktoberfest-2026%20Contributor-6f2da8?style=for-the-badge&logo=hacktoberfest&logoColor=white" />
-  <img src="https://img.shields.io/badge/HPX-2%20merged%20PRs-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HPX-4%20merged%20PRs-1f6feb?style=for-the-badge" />
 </p>
 
 - 🛢️ **SIH 2026:** built [OceanGuard AI](https://github.com/shaurya212121/OceanGuard), [Well-Whisperer](https://github.com/shaurya212121/Well-Whisperer) (offset-well risk intelligence for Oil India) and [BlueByte AI](https://github.com/shaurya212121/Bluebyte) (ocean & biodiversity data platform) with my team
